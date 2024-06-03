@@ -1,0 +1,168 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+
+.top_section_inner {
+
+width: 100%;
+}
+
+.top_section {
+margin: 0 auto;
+background-color:#062129;
+color: #FFFFFF;
+
+}
+
+.contact_wp {
+padding-left: 197px;
+}
+
+.top_text {
+padding-left: 322px;
+padding-top: 10px;
+padding-bottom: 11px;
+
+font-family: Nunito;
+font-size: 14px;
+font-weight: 400;
+line-height: 19.1px;
+text-align: left;
+
+}
+
+
+
+.d-flex.top_section_inner {
+max-width: 1440px;
+
+}
+
+.contact_wp {
+display: flex;
+align-items: center;
+
+}
+
+img {
+
+padding: 8px 0;
+margin-right: 8px;
+}
+
+p {
+margin: 0 !important;
+}
+
+.num{
+padding: 10px 0 11px 0;
+font-family: Nunito;
+font-size: 14px;
+font-weight: 700;
+line-height: 19.1px;
+text-align: left;
+
+}
+
+.wp_image{
+    width: 24px;
+   
+}       
+
+.main_section {
+    /* max-width: 1313px; */
+    /* margin: 0 auto; */
+}
+
+.main_top {
+    max-width: 1440px;
+    margin: 0 165px;
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+
+.navigation {
+    display: flex;
+    position: absolute;
+    padding-left: 521px;
+    gap: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.navigation nav >ul {
+    display: flex;
+    margin-bottom: 0px;
+    gap: 32px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.logo_text {
+    padding-right: 958px;
+    font-family: Nico Moji;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+    position: relative;
+    color: #062129;
+}
+
+input[type="text"] {
+    width: 258px;
+    height: 48px;
+    gap: 10px;
+    border: 1px solid #878787;
+    border-radius: 8px;
+}
+
+.navigation nav >ul>li {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.links {
+    /* max-width: 1440px; */
+    /* margin: 0 auto; */
+    max-width: 1440px;
+    margin: 0 165px;
+    /* width: 100%; */
+    /* padding: 16px 24px; */
+}
+
+.links>ul {
+    display: flex;
+    margin: 0;
+    padding: 16px 24px;
+    max-width: 1110px;
+}
+
+.links>ul>li {
+    margin-right: 125.8px;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    /* height: 56px; */
+}
+
+.main_bottom {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.links>ul>li:last-child {
+    margin-right: 0;
+}
